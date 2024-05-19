@@ -15,7 +15,7 @@ import rollball from '../../../public/images/rollball.png';
 import roll from '../../../public/images/roll.png';
 import Hogwarts from '../../../public/images/Hogwarts.png';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaSvelte,FaUnity,FaCogs, FaCode } from 'react-icons/fa';
-import { SiNextdotjs, SiFramer, SiFirebase, SiMaterialdesign, SiVite, SiTypescript, SiRedux,SiBlender } from 'react-icons/si';
+import { SiNextdotjs, SiFramer, SiFirebase, SiMaterialdesign, SiVite, SiTypescript, SiRedux,SiBlender,SiTailwindcss } from 'react-icons/si';
 
 
 import AnimatedText from '@/components/AnimatedText';
@@ -58,7 +58,7 @@ const Page = () => {
           <FaReact size={30} style={{ color: '#61DAFB' }} />
          <FaCss3Alt size={30} style={{ color: '#1572B6' }} />
          <FaJs size={30} style={{ color: '#F7DF1E' }} />
-         <SiFramer size={30} style={{ color: '#0055FF' }} />
+         <SiTailwindcss size={30} style={{ color: '#0055FF' }} />
          <SiVite size={30} style={{ color: '#646CFF' }} />
          <SiFirebase size={30} style={{ color: '#FFCA28' }} />
         </div>
@@ -153,6 +153,14 @@ const Page = () => {
           <p className='my-3 font-base text-left'>
             JavaMyntra is a dynamic ecommerce clothing web application, meticulously developed using a powerful technology stack comprising MongoDB, React, Node.js, and Express.js. This platform offers users a secure and seamless shopping experience for a diverse range of clothing items.
           </p>
+          <div className='text-left flex items-center  my-2'>
+         <FaReact size={30} style={{ color: '#61DAFB' }} />
+         <FaCss3Alt size={30} style={{ color: '#1572B6' }} />
+         <FaJs size={30} style={{ color: '#F7DF1E' }} />
+         <SiTailwindcss size={30} style={{ color: '#0055FF' }} />
+         <SiVite size={30} style={{ color: '#646CFF' }} />
+         <SiFirebase size={30} style={{ color: '#FFCA28' }} />
+        </div>
           <div className='text-left flex items-center space-x-10 my-4'>
             <Link href={'https://talented-teal-loincloth.cyclic.app/'} target='_blank'>
               <button className='bg-[#2c3e50] text-white px-12 py-3 rounded-md text-md font-semibold'>Visit Project</button>
