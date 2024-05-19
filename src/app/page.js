@@ -48,7 +48,7 @@ export default function Home() {
             className={`flex  items-center gap-2 border-[2px] ${theme ? 'bg-[#2c3e50] text-white' : 'bg-[#f7f1e3] text-[#2c3e50]'} p-2.5 px-6 rounded-lg text-lg font-semibold ${theme ? 'hover:bg-white hover:text-[#2c3e50] transition 0.3s ease-in hover:border-[2px]' : 'hover:bg-[#2c3e50] hover:text-white transition 0.3s ease-in border-[2px] border-[#2c3e50] hover:border-[2px]'} `}
             download={true}
             target={'_blank'}
-            href="/resume.pdf">
+            href="/Ayush-Resume.pdf">
             <p>Resume</p>
             <BsFillArrowDownCircleFill />
           </Link>
